@@ -13,5 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(statement)
-  
+  if statement == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+  end
 end
